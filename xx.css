@@ -1,6 +1,5 @@
-html { filter: invert(1) hue-rotate(180deg); }
 body { 
-}
+    background-color: blueviolet;}   
 .test p{
     color: blue;
 }
