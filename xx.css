@@ -93,3 +93,7 @@ a.test21{
     color : red;
     text-decoration: none;
 }
+
+#Menu {
+    display: inline;
+}
