@@ -1,4 +1,5 @@
 
+
 .Yazılar{
     color:white;
     text-align: center;
@@ -66,5 +67,8 @@
     transform: translate(-50%, -50%);
 }
 body{
-    background-color: black;
+    background-color: gray  ;
+}
+.testform{
+    font-size: xx-large;
 }
