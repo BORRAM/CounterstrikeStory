@@ -69,6 +69,27 @@
 body{
     background-color: gray  ;
 }
-.testform{
+.butontest2{
     font-size: xx-large;
+    top : 10%;
+    left: 45%;
+    margin: 0;
+    position: absolute;
+   
+}
+.butontest3{
+    font-size: xx-large;
+    top : 10%;
+    left: 70%;
+    margin: 0;
+    position: absolute;
+}
+a.test21{
+    font-size: xx-large;
+    top : 10%;
+    left: 20%;
+    margin: 0;
+    position: absolute;
+    color : red;
+    text-decoration: none;
 }
