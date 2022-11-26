@@ -1,4 +1,70 @@
-   
+
 .Yazılar{
-    background-color: aqua;
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+}
+.cfname{
+    color : red;
+    text-align: center;
+    font-style: bold;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.clastname{
+    color : red;
+    text-align: center;
+    font-style: bold;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#fname{
+    color : red;
+    text-align: center;
+    font-style: bold;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#lname{
+    color : red;
+    text-align: center;
+    font-style: bold;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.tıkla{
+    color : red;
+    text-align: center;
+    font-style: bold;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+body{
+    background-color: black;
 }
