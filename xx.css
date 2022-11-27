@@ -67,24 +67,34 @@
     transform: translate(-50%, -50%);
 }
 body{
-    background-color: gray  ;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/238/643/620/counter-strike-global-offensive-counter-strike-video-games-wallpaper-preview.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
-.butontest2{
-    font-size: xx-large;
-    top : 10%;
-    left: 45%;
-    margin: 0;
-    position: absolute;
-   
-}
-.butontest3{
+a.CS-GO{
     font-size: xx-large;
     top : 10%;
     left: 70%;
     margin: 0;
     position: absolute;
+    color : red;
+    text-decoration: none;
+   
 }
-a.test21{
+a.Counter-Strike{
+    font-size: xx-large;
+    top : 10%;
+    left: 45%;
+    margin: 0;
+    position: absolute;
+    color : red;
+    text-decoration: none;
+}
+
+a.Half-Life{
     font-size: xx-large;
     top : 10%;
     left: 20%;
