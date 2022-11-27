@@ -87,7 +87,7 @@ a.CS-GO{
 a.Counter-Strike{
     font-size: xx-large;
     top : 10%;
-    left: 45%;
+    left: 44%;
     margin: 0;
     position: absolute;
     color : red;
@@ -106,4 +106,16 @@ a.Half-Life{
 
 .Menu li {
     display: inline;
+}
+a.Half-Life:hover{
+    color: white;
+
+}
+a.Counter-Strike:hover{
+    color: white;
+
+}
+a.CS-GO:hover{
+    color: white;
+
 }
