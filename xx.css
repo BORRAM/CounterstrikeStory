@@ -92,6 +92,7 @@ a.Counter-Strike{
     position: absolute;
     color : red;
     text-decoration: none;
+    display: inline;
 }
 
 a.Half-Life{
