@@ -6,73 +6,40 @@
     font-style: italic;
     font-size: 10px;
 }
-.cfname{
-    color : red;
+ div.entry {
     text-align: center;
-    font-style: bold;
-    font-size: 19px;
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    height: 300px ;
+ }
+
+ #entryform {
+    margin-top: 70px;
+ }
+
+
+label.username {
+    color: red;
+    font-size: 20px;
 }
-.clastname{
-    color : red;
-    text-align: center;
-    font-style: bold;
-    font-size: 19px;
-    margin: 0;
-    position: absolute;
-    top: 42.5%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+label.password {
+    color: red;
+    font-size: 20px;
 }
-#fname{
-    color : red;
-    text-align: center;
-    font-style: bold;
-    font-size: 19px;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+input.login {
+    color: red;
+    font-size: 17px;
+    margin-top: 20px;
 }
-#lname{
-    color : red;
-    text-align: center;
-    font-style: bold;
-    font-size: 19px;
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.tıkla{
-    color : red;
-    text-align: center;
-    font-style: bold;
-    font-size: 19px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 body{
     background-image: url('https://p4.wallpaperbetter.com/wallpaper/238/643/620/counter-strike-global-offensive-counter-strike-video-games-wallpaper-preview.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    background-attachment: scroll;
 }
 a.CS-GO{
     font-size: xx-large;
@@ -105,8 +72,31 @@ a.Half-Life{
     text-decoration: none;
 }
 
-.Menu li {
-    display: inline;
+.pages {
+    color: white;
+    display: block;
 }
 
+.testform {
+    border: 2px solid white;    
+}
 
+div.pages {
+    border: 1px solid white;
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    display: inline;
+    margin: 50px;
+}
+
+ul {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: center;
+}
