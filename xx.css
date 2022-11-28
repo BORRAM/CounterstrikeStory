@@ -94,6 +94,7 @@ a.test21{
     text-decoration: none;
 }
 
-#Menu {
+.Menu li {
     display: inline;
 }
+
