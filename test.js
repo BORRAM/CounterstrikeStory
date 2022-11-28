@@ -5,3 +5,5 @@ var cevre = 2 * pi * r;
 console.log(cevre);
 console.log("test");
 console.log("test2");
+var z = Math.pow(2, 3);
+console.log(z);
