@@ -66,14 +66,15 @@
     transform: translate(-50%, -50%);
 }
 */
-body{
+/*body{
     background-image: url('https://p4.wallpaperbetter.com/wallpaper/238/643/620/counter-strike-global-offensive-counter-strike-video-games-wallpaper-preview.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: scroll;
-}
+}*/
+body{background-color: gray;}
 .Half-Life{
     padding: 15px 80px;
     text-decoration: none;
@@ -164,7 +165,125 @@ body{
     background-color: #00ff00;
     color: #00ff00;
 }
+@media (max-width:1264px) {
 
+    .Half-Life{
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #ffff00;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 40%;
+        left: 30%;
+        position: absolute;
+    }
+    .Counter-Strike{
+        padding: 21px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ff0085;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 40%;
+        left: 50%;
+        position: absolute;
+    }
+    .CS-GO{
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #00ff00;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 40%;
+        left: 70%;
+        position: absolute;
+    }
+    .Half-Life:hover{
+        color: #ffff00;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #ffff00;
+        padding: 300px 30px;
+        top : 20%;
+    }
+    .Counter-Strike:hover{
+        color: #ff0085;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #ff0085;
+        padding: 300px 30px;
+        top : 20%;
+    }
+    .CS-GO:hover{
+        color: #00ff00;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #00ff00;
+        padding: 300px 30px;
+        top : 20%;
+    }
+}
+@media (max-width: 900px) {
+    .Half-Life{
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 20%;
+        left: 30%;
+        position: absolute;
+    }
+    .Counter-Strike{
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 35%;
+        left: 30%;
+        position: absolute;
+    }
+    .CS-GO{
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        transition: 500ms;
+        display: inline-block;
+        top: 50%;
+        left: 30%;
+        position: absolute;
+    }
+    .Half-Life:hover{
+        color: #ffff00;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #ffff00;
+        padding: 20px 20px;
+        top : 20%;
+    }
+    .Counter-Strike:hover{
+        color: #ff0085;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #ff0085;
+        padding: 20px 20px;
+        top : 35%;
+    }
+    .CS-GO:hover{
+        color: #00ff00;
+        text-shadow: none;
+        box-shadow: 0 0 22px 2px #00ff00;
+        padding: 20px 20px;
+        top : 50%;
+    }
+}
 /*.Menu li {
     display: inline;
 }*/
