@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+    background-image: url(half-life1.jpg);
+    background-repeat: repeat;
+}
+
+
+#div1 {
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 20px;;
+    font-size: 20px;
+    color:white;
+    background-color: rgba(58, 50, 39, 0.877);
+    min-width: 1;
+}
+
+#div2 {
+    border: 1px solid white;
+    color:white;
+    padding-left: 5px;;
+    background-color: rgba(58, 50, 39, 0.918);
+}
+
+#p1 {
+    text-indent: 10px;
+}
