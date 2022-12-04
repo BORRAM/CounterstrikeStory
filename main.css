@@ -18,11 +18,24 @@ height: 100vh;
 
 }
 .Half-Life{
-    background: rgb(36,164,138);
+        background: url(https://cdn.wallpapersafari.com/87/12/uHakPn.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
 }
 .Counter-Strike{
-    background: rgb(35, 155, 22);
+    background: url(https://wallpapercave.com/wp/wp2386128.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .CSGO{
-    background: rgb(0, 152, 221);
+    background: url(https://wallpaperaccess.com/full/1409318.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
