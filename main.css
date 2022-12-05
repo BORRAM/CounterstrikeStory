@@ -8,8 +8,8 @@
 section{   
     height: 100vh; /*Viewport Height (vh) vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. Bu örneğimiz ise katman boyutu maximum yarım ekran yüksekliğinde olacak*/
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     scroll-snap-align: start;
 }
 .container{
@@ -33,7 +33,7 @@ a.Half:hover{
     color: rgb(243, 124, 27);
 }
 .Counter-Strike{
-    background: url(https://wallpapercave.com/wp/wp2386128.jpg) no-repeat center center fixed; 
+    background: url(https://images.gamebanana.com/img/ss/mods/4f4cc7ebaaeb5.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
