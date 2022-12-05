@@ -22,9 +22,7 @@ height: 100vh;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        top: 40%;
-        left: 50%;
-        padding: 15px 80px;
+        padding: 15px 40px;
 }
 .Counter-Strike{
     background: url(https://images.gamebanana.com/img/ss/mods/4f4cc7ebaaeb5.jpg) no-repeat center center fixed; 
