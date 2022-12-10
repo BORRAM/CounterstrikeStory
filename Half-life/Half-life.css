@@ -41,3 +41,33 @@ body {
 #p1 {
     text-indent: 10px;
 }
+
+
+#div3 {
+    margin-top: 30px;
+    background-color: rgba(78, 77, 76, 0.705) ;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color:rgb(199, 163, 130);
+    font-size: 20px;
+    text-align: center;
+    max-width: 1050px;
+    transition: 500ms;
+}
+
+#a1 {
+    text-decoration: none;
+    transition: 500ms;
+}
+
+#a1:link, #a1:visited {
+    color:rgb(199, 163, 130);
+    text-shadow: none;
+}
+
+
+#div3:hover {
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+    text-shadow: 7px 7px 5px rgb(255, 62, 3);
+}
