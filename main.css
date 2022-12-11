@@ -8,7 +8,7 @@
 section{   
     height: 100vh; /*Viewport Height (vh) vh ise ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. Bu örneğimiz ise katman boyutu maximum yarım ekran yüksekliğinde olacak*/
     scroll-snap-align: start;
-    display: flex;
+    /*display: flex;*/
 }
 .container{
 scroll-snap-type: y mandatory;
@@ -38,22 +38,24 @@ height: 100vh;
     -o-background-size: cover;
     background-size: cover;
 }
-h1.h1blok{
-    color: white;
+h1.H1_Text{
+    justify-content: center;
+    color: rgb(29, 165, 35);
     font-size: 50px;
     font-weight: 700;
-    top : 0%;
-    left: 40%;
-    margin: 0;
+    text-align: left;
+    top : 5%;
+    left : 5%;
     position: relative;
 }
-h3.h3blok{
+h2.H2_Text{
+    justify-content: left;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
-    text-align: center;
-    top : 20%;
-    right: 10%;
+    text-align: left;
+    top : 10%;
     margin: 0;
+    left :2%;
     position: relative;
 }
