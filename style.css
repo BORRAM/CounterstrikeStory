@@ -112,7 +112,7 @@ nav{
    transform: rotate(45deg) translate(-5px,-6px );
 }
 .Half_Life{
-  background: url(https://cdn.wallpapersafari.com/87/12/uHakPn.jpg) no-repeat center center fixed; 
+  background: url(images/halflife.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -120,14 +120,14 @@ nav{
   padding: 15px 40px;
 }
 .Counter_Strike{
-background: url(https://images.gamebanana.com/img/ss/mods/4f4cc7ebaaeb5.jpg) no-repeat center center fixed; 
+background: url(images/cs16.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
 .CSGO{
-background: url(https://wallpaperaccess.com/full/1409318.jpg) no-repeat center center fixed; 
+background: url(images/csgo.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
