@@ -42,32 +42,46 @@ body {
     text-indent: 10px;
 }
 
+#p3 {
+    position:relative;
+    padding-bottom: 100px;
+}
 
 #div3 {
-    margin-top: 30px;
-    background-color: rgba(78, 77, 76, 0.705) ;
-    border: 1px solid transparent;
+    text-align: center;
+    background-color: rgba(78, 77, 76, 0.705);
     border-radius: 20px;
+    max-width: 1050px;
+    min-height: 300px;
+}
+
+#p2 {
     color:rgb(199, 163, 130);
     font-size: 20px;
-    text-align: center;
-    max-width: 1050px;
-    transition: 500ms;
 }
 
-#a1 {
-    text-decoration: none;
-    transition: 500ms;
+#cross1 {
+    border: 1px dashed black;
+    width: 200px;
+    position: relative;
+    right: 300px;
+    transition: 700ms;
 }
 
-#a1:link, #a1:visited {
-    color:rgb(199, 163, 130);
-    text-shadow: none;
+#cross1:hover {
+    width: 300px;
+}
+
+#cross2 {
+    border: 1px dashed black;
+    width:200px;
+    position: relative;
+    right: 100px;
 }
 
 
-#div3:hover {
-    box-shadow: 1px 1px 1px 1px black;
-    cursor: pointer;
-    text-shadow: 7px 7px 5px rgb(255, 62, 3);
-}
+
+
+
+
+
