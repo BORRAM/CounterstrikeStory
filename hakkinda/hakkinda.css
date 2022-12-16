@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     overflow: hidden;
-    background: #111;
+    background-color: #111;
   }
   div{
     box-sizing: border-box;
