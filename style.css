@@ -167,3 +167,85 @@ h2.H2_Text{
   padding-top: 50px;
   text-align: center;
 }
+.butonflex{
+  display: flex;
+}
+.devambutton{
+  color : orange;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  padding-left: 3px;
+}
+.devambutton:hover{
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+}
+.halfdevbut {
+  position: relative;
+  display: inline;
+  padding: 15px 30px;
+  color: orange;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.halfdevbut:hover {
+  color: orange;
+  transition-delay: 1s;
+}
+.halfdevbut span {
+  position: absolute;
+  display: block;
+}
+.halfdevbut span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, orange);
+}
+.halfdevbut:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.halfdevbut span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, orange);
+}
+.halfdevbut:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.halfdevbut.halfdevbut span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, orange);
+}
+.halfdevbut:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.halfdevbut span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, orange);
+}
+.halfdevbut:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
