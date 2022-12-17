@@ -170,22 +170,10 @@ h2.H2_Text{
 .butonflex{
   display: flex;
 }
-.devambutton{
-  color : orange;
-  text-decoration: none;
-  font-size: 30px;
-  position: relative;
-  padding-left: 3px;
-}
-.devambutton:hover{
-  color: white;
-  background-color: orange;
-  border-radius: 20px;
-}
 .halfdevbut {
   position: relative;
   display: inline;
-  padding: 15px 30px;
+  padding: 20px 365px;
   color: orange;
   text-transform: uppercase;
   letter-spacing: 4px;
