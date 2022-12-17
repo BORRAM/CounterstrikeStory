@@ -115,21 +115,48 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
   }
-  h1.H1_Text{ 
-    color: white;
-    font-size: 50px;
-    font-weight: 700;
-    text-align: left;
-    position: relative;
-    padding: 10px 10px;
-  }
-  h2.H2_Text{
-    color: white;
-    font-size: 30px;
-    font-weight: 200;
-    text-align: left;
-    position: relative;
-    padding-top: 50px;
-  }
+.contact-height{
+  line-height: 90px;
+}
+.wplogo{
+  background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+  border:2px solid #18ab29;
+}
+.text{
+  color : white;
+}
+.tglogo{
+  background-color:#25c7d3;
+	color:#FFF;
+	border-radius:50px;
+  border:2px solid #25c7d3;
+}
+.maplogo{
+  background-color:#767694;
+	color:#FFF;
+	border-radius:50px;
+  border:2px solid #767694;
+}
+.maillogo{
+  background-color:#f7b500;
+  color:#FFF;
+  border-radius:50px;
+  border:2px solid #f7b500;
+}
+.tglogo:hover{
+  background-color:#111;
+	color:#25c7d3;
+}
+.wplogo:hover{
+  background-color:#111;
+  color:#18ab29;
+}
+.maillogo:hover{ 
+  background-color: #111;
+  color: #f7b500;
+  border:2px solid #f7b500;
+}
