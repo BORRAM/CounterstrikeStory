@@ -93,7 +93,7 @@ header nav li a:hover:before , header nav li a:hover:after {
   50% { transform: scale(1.6) rotate(10deg);}
 }
 
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 468px) {
   header nav ul { 
     width: 100%; 
     text-align: center;
