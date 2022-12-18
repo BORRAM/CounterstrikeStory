@@ -79,6 +79,19 @@ body{
       justify-content: space-between;
       padding: 0 5vw;
     }
+    .maillogo{
+      background-color:#f7b500;
+      color:#FFF;
+      border-radius:50px;
+      border:2px solid #f7b500;
+      font-size: 40px;
+      vertical-align: text-bottom;
+    }
+    .gmap{
+      width: 350px;
+      height: 200px; 
+      overflow:  auto;
+    }
   }
   .nav-active{
     transform: translateX(0);
@@ -118,31 +131,34 @@ body{
     justify-content: center;
   }
 .contact-height{
-  line-height: 90px;
+  line-height: 100px;
 }
 .wplogo{
   background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
+  vertical-align: middle;
   border:2px solid #18ab29;
 }
 .text{
   color : white;
 }
+.edulogotext:hover{
+  color:#6c0350;
+}
+.edulogotext{
+  color: #fff;
+}
 .tglogo{
   background-color:#25c7d3;
+  vertical-align: middle;
 	color:#FFF;
 	border-radius:50px;
   border:2px solid #25c7d3;
 }
-.maplogo{
-  background-color:#767694;
-	color:#FFF;
-	border-radius:50px;
-  border:2px solid #767694;
-}
 .maillogo{
   background-color:#f7b500;
+  vertical-align: middle;
   color:#FFF;
   border-radius:50px;
   border:2px solid #f7b500;
@@ -159,4 +175,11 @@ body{
   background-color: #111;
   color: #f7b500;
   border:2px solid #f7b500;
+}
+.edulogo{
+  width: 100px;
+  vertical-align: middle;
+}
+.textdecoretion{
+  text-decoration: none;
 }
