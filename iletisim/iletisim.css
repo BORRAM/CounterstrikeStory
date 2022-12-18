@@ -5,6 +5,36 @@ body{
     overflow: hidden;
     background-color: #111;
   }
+  .logo{
+    box-sizing: border-box;
+  }
+  nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #fff;
+  
+  }
+  .nav-links {
+      display: flex;
+      justify-content:space-around;
+      width: 50%;
+      text-transform: uppercase;
+  }
+  .nav-links a{
+    display: block;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: #fff;
+    border-bottom:2px solid transparent;
+    transition:0.5s ease;
+    transform: translateX(0%);
+  }
+  .nav-links a:hover{
+    color:#38b8ff;
+    letter-spacing: 5px;
+  }
   .textmail{
     font-size: 40px;
     color:white;
@@ -21,6 +51,12 @@ body{
     .gmap{
       width: 400px;
       height: 350px;
+    }
+    .nav-links{
+      font-size: 12px;
+    }
+    .nav-links a:hover{
+      letter-spacing: 0px;
     }
   }
   .center{

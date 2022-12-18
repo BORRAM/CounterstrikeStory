@@ -3,9 +3,9 @@ body{
   padding: 0;
   font-family: sans-serif;
   overflow: hidden;
-  background: #111;
+  background-color: #111;
 }
-div{
+.logo{
   box-sizing: border-box;
 }
 nav{
@@ -34,82 +34,6 @@ nav{
 .nav-links a:hover{
   color:#38b8ff;
   letter-spacing: 5px;
-}
-.burger{
-  display: none;
-}
-.burger div{
-  width: 25px;
-  height: 3px;
-  background: #fff;
-  margin: 5px;
-  transition:all 0.5s ease;
-}
-@media only screen and (max-width: 760px){
-   nav{
-    justify-content: space-between;
-    padding: 0 5vw;
-  }
-  .nav-links{
-    position: absolute;
-    right: 0;
-    top:8vh;
-    min-height:92vh;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    transform: translateX(100%);
-    transition:All 0.5s ease-in;
-  }
-  .nav-links a{
-    opacity: 0;
- 
-  }
-  .burger{
-    display: block;
-  }
-}
-@media only screen and (max-width: 640px){
-  nav{
-    justify-content: space-between;
-    padding: 0 5vw;
-  }
-
-}
-.nav-active{
-  transform: translateX(0);
-}
-@media only screen and (max-width: 460px){
-  .nav-links{
-    width: 100%;
-    transition:All 0.5s ease;
-  }
-}
-.nav-active{
-  transform: translateX(0);
-}
-@keyframes navLinkFade{
-  from{
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-.toggle .line1{
-   transform: rotate(-45deg) translate(-5px,6px );
-}
-.toggle .line2{
-   opacity: 0;
-}
-.toggle .line3{
-   transform: rotate(45deg) translate(-5px,-6px );
 }
 .Half_Life{
   background: url(images/halflife.jpg) no-repeat center center fixed; 
@@ -236,4 +160,51 @@ h2.H2_Text{
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+@media only screen and (max-width: 768px){
+  .nav-links{
+    font-size: 12px;
+  }
+  .nav-links a:hover{
+    letter-spacing: 5px;
+  }
+  .halflifeimg{
+    width: 600px;
+    height: 550px;
+  }
+  .halfdevbut{
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px){
+  .nav-links{
+    font-size: 12px;
+  }
+  .nav-links a:hover{
+    letter-spacing: 1px;
+  }
+  .halflifeimg{
+    width: 550px;
+    height: 350px;
+    padding-top: 50px;
+  }
+  .halfdevbut{
+    display: none;
+  }
+}
+@media only screen and (max-width: 468px){
+  .nav-links{
+    font-size: 12px;
+  }
+  .nav-links a:hover{
+    letter-spacing: 0px;
+  }
+  .halflifeimg{
+    padding-top: 50px;
+    width: 400px;
+    height: 350px;
+  }
+  .halfdevbut{
+    display: none;
+  }
 }
