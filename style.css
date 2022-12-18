@@ -72,13 +72,13 @@ nav{
   .burger{
     display: block;
   }
- 
 }
 @media only screen and (max-width: 640px){
   nav{
     justify-content: space-between;
     padding: 0 5vw;
   }
+
 }
 .nav-active{
   transform: translateX(0);
