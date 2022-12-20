@@ -91,14 +91,17 @@ h2.H2_Text{
   padding-top: 50px;
   text-align: center;
 }
+.halflifeimg{
+  padding: 0;
+}
 .butonflex{
   display: flex;
 }
 .halfdevbut {
   position: relative;
   display: inline;
-  padding: 20px 365px;
   color: orange;
+  padding: 20px 365px;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
@@ -161,7 +164,7 @@ h2.H2_Text{
   transition: 1s;
   transition-delay: 0.75s;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 820px){
   .nav-links{
     font-size: 12px;
   }
@@ -171,9 +174,12 @@ h2.H2_Text{
   .halflifeimg{
     width: 600px;
     height: 550px;
+    margin: 0 auto;
   }
   .halfdevbut{
-    display: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 640px){
@@ -186,10 +192,12 @@ h2.H2_Text{
   .halflifeimg{
     width: 550px;
     height: 350px;
-    padding-top: 50px;
+    margin: 0 auto;
   }
   .halfdevbut{
-    display: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 468px){
@@ -200,11 +208,17 @@ h2.H2_Text{
     letter-spacing: 0px;
   }
   .halflifeimg{
-    padding-top: 50px;
-    width: 400px;
+    /*yukarı sağ aşağı sol*/
+    width: 290px;
     height: 350px;
+    margin: 0 auto;
   }
   .halfdevbut{
-    display: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .nav-links{
+    font-size: 9px;
   }
 }

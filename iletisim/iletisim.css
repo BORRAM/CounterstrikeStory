@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #111;
   }
   .logo{
@@ -42,22 +42,6 @@ body{
   .gmap{
     width: 1050px;
     height: 500px;
-  }
-  @media only screen and (max-width: 640px){
-    .textmail{
-      font-size: 29px;
-      color:white;
-    }
-    .gmap{
-      width: 400px;
-      height: 350px;
-    }
-    .nav-links{
-      font-size: 12px;
-    }
-    .nav-links a:hover{
-      letter-spacing: 0px;
-    }
   }
   .center{
     display: flex;
@@ -118,3 +102,34 @@ body{
 .textdecoretion{
   text-decoration: none;
 }
+  @media only screen and (max-width: 640px){
+    .textmail{
+      font-size: 29px;
+      color:white;
+    }
+    .gmap{
+      width: 300px;
+      height: 350px;
+    }
+    .nav-links{
+      font-size: 9px;
+    }
+    .nav-links a:hover{
+      letter-spacing: 0px;
+    }
+    .maillogo{
+      background-color:#f7b500;
+      vertical-align: middle;
+      color:#FFF;
+      border-radius:50px;
+      font-size: 60px;
+      border:2px solid #f7b500;
+    }
+    .text{
+     font-size: 20px;
+    }
+    .textmail{
+      font-size: 20px;
+    }
+  }
+
