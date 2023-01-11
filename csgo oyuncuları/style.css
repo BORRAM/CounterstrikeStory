@@ -1,0 +1,144 @@
+body{
+    background-color: #17161b;
+}
+
+.kutu1 {
+    background-color: dimgray;
+    padding-bottom: 10px;
+    height: 150px;
+}
+
+.kutu1 h1{
+  
+    padding-left: 20px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu1 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent:30px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+
+
+.kutu2 b{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu2 img{
+   
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.kutu2 P {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent:30px; 
+    text-shadow: 2px 2px 5px gray;
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu3 b{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu3 img{
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.kutu3 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent:30px; 
+    text-shadow: 2px 2px 5px gray;
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu4 b{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu4 img{
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.kutu4 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 2px 2px 5px gray;
+    text-indent:30px; 
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu5 b{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu5 img{
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.kutu5 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 2px 2px 5px gray;
+    text-indent:30px; 
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu6 b{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
+.kutu6 img{
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.kutu6 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 2px 2px 5px gray;
+    text-indent:30px; 
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    color: whitesmoke;
+}
