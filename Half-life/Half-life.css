@@ -66,6 +66,7 @@ body {
     position: relative;
     right: 300px;
     transition: 700ms;
+    inline
 }
 
 #cross1:hover {
@@ -77,6 +78,7 @@ body {
     width:200px;
     position: relative;
     right: 100px;
+    z-index: 0;
 }
 
 
