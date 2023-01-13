@@ -51,8 +51,11 @@ body {
     text-align: center;
     background-color: rgba(78, 77, 76, 0.705);
     border-radius: 20px;
+    border: 1px solid transparent;
     max-width: 1050px;
-    min-height: 300px;
+    max-height: 1050px;
+
+
 }
 
 #p2 {
@@ -60,26 +63,9 @@ body {
     font-size: 20px;
 }
 
-#cross1 {
-    border: 1px dashed black;
-    width: 200px;
-    position: relative;
-    right: 300px;
-    transition: 700ms;
-    inline
-}
 
-#cross1:hover {
-    width: 300px;
-}
 
-#cross2 {
-    border: 1px dashed black;
-    width:200px;
-    position: relative;
-    right: 100px;
-    z-index: 0;
-}
+
 
 
 

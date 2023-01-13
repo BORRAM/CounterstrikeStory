@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background: #2A2734;
+            text-align: center;
+            font-family: sans-serif;
+            color: #fefefe;
+        }
+
+        .container {
+            position: relative;
+            width: 320px;
+            margin: 100px auto 0 auto;
+            perspective: 1000px;
+            padding-bottom: 300px;
+            padding-top: 25px;
+        }
+
+        .carousel {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            animation: rotate360 60s infinite forwards linear;
+
+        }
+
+        .image {
+            position: absolute;
+            width: 300px;
+            height: 187px;
+            top: 20px;
+            left: 10px;
+            right: 10px;
+            background-size: cover;
+            box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+            display: flex;
+        }
+
+        span {
+            margin: auto;
+            font-size: 2rem;
+        }
+
+        @keyframes rotate360 {
+            from {
+                transform: rotateY(0deg);
+            }
+
+            to {
+                transform: rotateY(-360deg);
+            }
+        }
+
+        .image:nth-child(1) {
+            background-image: url(dust2.jpg);
+            transform: rotateY(0deg) translateZ(430px);
+        }
+
+        .image:nth-child(2) {
+            background-image: url(aztec.jpg);
+            transform: rotateY(40deg) translateZ(430px);
+        }
+
+        .image:nth-child(3) {
+            background-image: url(cache.jpg);
+            transform: rotateY(80deg) translateZ(430px);
+        }
+
+        .image:nth-child(4) {
+            background-image: url(nuke.jpg);
+            transform: rotateY(120deg) translateZ(430px);
+        }
+
+        .image:nth-child(5) {
+            background-image: url(anubis.jpg);
+            transform: rotateY(160deg) translateZ(430px);
+        }
+
+        .image:nth-child(6) {
+            background-image: url(inferno.jpg);
+            transform: rotateY(200deg) translateZ(430px);
+        }
+
+        .image:nth-child(7) {
+            background-image: url(train.jpg);
+            transform: rotateY(240deg) translateZ(430px);
+        }
+
+        .image:nth-child(8) {
+            background-image: url(overpass.jpg);
+            transform: rotateY(280deg) translateZ(430px);
+        }
+
+        .image:nth-child(9) {
+            background-image: url(mirage.jpg);
+            transform: rotateY(320deg) translateZ(430px);
+        }
+
+        .buttons {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+        }
+
+        .buttons button {
+            padding: 5px 20px;
+            border-radius: 15px;
+            border: none;
+            color: white;
+            height: auto;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="carousel">
+            <div class="image"><span>Dust 2</span></div>
+            <div class="image"><span>Aztec</span></div>
+            <div class="image"><span>Cache</span></div>
+            <div class="image"><span>Nuke</span></div>
+            <div class="image"><span>Anubis</span></div>
+            <div class="image"><span>Inferno</span></div>
+            <div class="image"><span>Train</span></div>
+            <div class="image"><span>Overpass</span></div>
+            <div class="image"><span>Mirage</span></div>
+        </div>
+    </div>
+
+    <h1>CS:GO Harita Tanıtımı</h1>
+
+    <div class="buttons">
+        <button style="background-color:rgb(217, 223, 134);" class="button" onclick="activeButton('dust2')">
+            Dust 2
+        </button>
+
+        <button style="background-color:rgb(5, 110, 40);" class="button" onclick="activeButton('aztec')">
+            Aztec
+        </button>
+        <button style="background-color:rgb(160, 228, 146);" class="button" onclick="activeButton('cache')">
+            Cache
+        </button>
+
+        <button style="background-color:rgb(19, 102, 37);" class="button" onclick="activeButton('nuke')">
+            Nuke
+        </button>
+        <button style="background-color:rgb(161, 153, 36);" class="button" onclick="activeButton('anubis')">
+            Anubis
+        </button>
+        <button style="background-color:rgb(163, 35, 35);" class="button" onclick="activeButton('inferno')">
+            Inferno
+        </button>
+        <button style="background-color:rgb(155, 121, 161);" class="button" onclick="activeButton('train')">
+            Train
+        </button>
+        <button style="background-color:rgb(165, 163, 132);" class="button" onclick="activeButton('overpass')">
+            Overpass
+        </button>
+        <button style="background-color:rgb(188, 212, 78);" class="button" onclick="activeButton('mirage')">
+            Mirage
+        </button>
+    </div>
+    <div class="tanitimlar">
+        <div class="tanitim" id="dust2">
+            <p>
+                Dust II (de_dust2), aynı zamanda Dust2 olarak da bilinir, Counter-Strike serisinde yer alan bir Bomba
+                İmha haritasıdır. Dust'ın halefidir.
+                <br>
+                <br>
+                Güçlü dengesi nedeniyle Counter-Strike serisinin en popüler haritalarından biri olan Dust II,
+                Counter-Strike serisi için ikonik bir haritadır. Birçok sunucuda yaygın olarak oynanır ve Counter-Strike
+                turnuvaları için de popüler bir seçimdir.
+                <br>
+                <br>
+                Harita, önceki Dust'a benzer şekilde Orta Doğu'da geçiyor gibi görünüyor. Haritanın daha önceki bir
+                sürümü, birçok tanımlayıcı özellikten yoksundur; tek tanımlayıcı özellik, duvarlar için kumtaşı dokuları
+                ve zemin için kum gibi görünen şeylerdir.
+                <br>
+                <br>
+                18 Ekim 2017 güncellemesinde Dust II'nin revize edilmiş versiyonu yayınlandı.18 Haziran 2019
+                güncellemesinde Counter-Strike serisinin 20. yıl dönümü şerefine Dust II'nin retro versiyonu yayınlandı.
+            </p>
+        </div>
+        <div class="tanitim" id="aztec">
+            <p>
+                Aztec (de_aztec), Counter-Strike serisinde yer alan bir bomba imha haritasıdır. Bir Orta Amerika
+                arkeolojik sit alanında yer almaktadır.
+                <br>
+                <br>
+                O zamanlar, Aztec'in bu versiyonu çok farklıydı. Bir güncellemeden önce, Bombsite B gelecekteki
+                sürümlerde bulunduğu yerde değildi. Tünelin yanında Bomba Sahası B'ye giden bir geçit ve tünelin solunda
+                Teröristlerin bomba sahalarına ulaşmasını çok daha zorlaştıran başka bir geçit vardı. Muhtemelen
+                teröristler için daha adil hale getirmek için bomba sahasının yeri değiştirildi.
+                <br>
+                <br>
+                13 Kasım 2017 güncellemesinde, harita oyun dosyalarından kaldırılarak oyun içinde erişilemez hale
+                getirildi. Kaldırılma sebebinin ise haritanın daha az oynanmış bir harita olması olduğu belirtildi.
+                Geliştiriciler, CS GO Blog'unda harita güncellendiğinde yeniden ekleme sözü verdiler.
+            </p>
+        </div>
+        <div class="tanitim" id="cache">
+            <p>
+                Cache (de_cache), Counter-Strike: Global Offensive'de bulunan, Bravo Operasyonu ve Phoenix
+                Operasyonu'nda yer alan özel bir Bomba İmha haritasıdır.
+                <br>
+                <br>
+                Breakout Operasyonunun kullanıma sunulmasıyla birlikte Cache resmi bir harita haline geldi. Bunu yapan
+                ilk ve tek topluluk haritası olarak Active Duty harita havuzuna tanıtıldı, ancak o zamandan beri 28 Mart
+                2019'da kaldırıldı ve yerini Vertigo aldı. Bu, Deathmatch ve Casual'de Defusal Group Delta'dır ve hala
+                rekabetçi olarak oynanabilir.
+                <br>
+                <br>
+                Cache grafiksl olarak güncellendi ve ilk kez 29 Eylül 2019'da ESL One New York 2019 CS:GO turnuvası
+                sırasında halka gösterildi. Bu harita tamamen yaratıcısı FMPONE (Shawn Snelling) tarafından
+                güncellenmiştir.
+            </p>
+        </div>
+        <div class="tanitim" id="nuke">
+            <p>
+                Nuke (de_nuke), Counter-Strike, Counter-Strike: Source ve Counter-Strike: Global Offensive'de yer alan
+                bir Bomba İmha haritasıdır.
+                <br>
+                <br>
+                Harita, nükleer maddeler içeren bir depoda veya bir nükleer santralde geçiyor. Global Offensive'de
+                haritanın orijinal versiyonunda bir Alman nükleer santrali yer alırken, yenilenen versiyonu bir Amerikan
+                santralinde geçiyor.
+                <br>
+                <br>
+                Çoğu Counter-Strike bomba imha haritasının aksine, harita birden çok şerit yerine merkezi bir yapı
+                etrafında döner ve iki bomba sahası üst üste bindirilir.
+                <br>
+                <br>
+                Train'in yenilenmesinin ardından Nuke, Aktif Görev harita grubundan çıkarıldı ve 31 Mart 2015
+                güncellemesinden sonra Train ile değiştirildi. Nuke daha sonra yenilendi ve Wildfire Operasyonu ile
+                birlikte piyasaya sürüldü ve yeni sürümü dengelemek için birçok geri bildirimi bir araya getirdi. Kısa
+                bir süre sonra Nuke, Inferno'nun yerini alarak aktif harita havuzuna yeniden tanıtıldı.
+            </p>
+        </div>
+        <div class="tanitim" id="anubis">
+            <p>
+                Anubis (de_anubis), Roald, jakuza ve jd40 tarafından tasarlanan topluluk yapımı bir Bomba İmha
+                haritasıdır ve 31 Mart 2020 güncellemesinde Chlorine ile birlikte oyuna eklenen Counter-Strike: Global
+                Offensive'de yer alır. Anubis, ilk olarak yalnızca Hücum modunda tanıtıldı ve sonunda Dust II'nin yerini
+                alarak Aktif Görev Grubuna girdi.
+                <br>
+                <br>
+                10 Nisan 2020'de Anubis, oyunda yalnızca on gün yer aldıktan sonra Hücum'dan Rekabetçi'ye taşındı. İlki
+                yeni Önbellek olan Hücum'un tanıtılmasından bu yana Rekabetçi'ye taşınan ikinci haritaydı. 3 Mayıs
+                2021'de Anubis oyundan kaldırıldı, ancak 1 yıldan biraz fazla bir süre sonra, Counter-Strike: Global
+                Offensive'in 10. doğum günü için 16 Ağustos 2022 güncellemesinde yeniden eklendi.
+                <br>
+                <br>
+                IEM Rio 2022 Major'ın ardından 18 Kasım 2022 güncellemesinde Aktif Görev Grubuna eklendi. Bu, Cache'den
+                sonra Aktif Görev Grubuna giren ikinci topluluk yapımı harita.
+            </p>
+        </div>
+        <div class="tanitim" id="inferno">
+            <p>
+                Inferno (de_inferno), Counter-Strike serisinde yer alan bir bomba imha haritasıdır.
+                <br>
+                <br>
+                Harita, Avrupa mimarisine sahip küçük bir kasabada geçiyor. Global Offensive versiyonunda, Ayrılıkçı
+                fraksiyonun varlığı, haritanın çevresinde görülen İtalyanca yazılmış işaretlerden de anlaşılacağı gibi,
+                haritanın kesinlikle İtalya'da geçtiğini gösteriyor. Ancak ayrılıkçı hizip Bask ülkesi İspanya ve
+                Fransa'da da var, dolayısıyla orada da olması muhtemel.
+                <br>
+                <br>
+                Inferno, 13 Ekim 2016 güncellemesinde resmi olarak yenilendi. Genel düzen nispeten değişmeden kalsa da,
+                yenilenen sürüm, büyük ölçüde iyileştirilmiş görünürlük ve parlaklık seviyesinin yanı sıra genişletilmiş
+                yollar içeriyor. Yukarı Banana'daki arabanın yerini birkaç varil aldı. Pencere odasının altındaki saman
+                yığınları artık merdiven. Pencere odasının her iki yanındaki pencerelerin boyutu ve görünürlüğü
+                yükseltildi. Yeni harita ayrıca T Spawn'daki çanların, Banana'nın yan tarafındaki sütunların, Bombsite
+                B'nin önündeki verandanın, CT Spawn'ın yanındaki kamyonun, Bombsite A'nın üzerindeki kaplamaların ve
+                Pencere odasının yanındaki yatak odasının kaldırılmasını da gördü.
+            </p>
+        </div>
+        <div class="tanitim" id="train">
+            <p>
+                Train (de_train), Counter-Strike, Counter-Strike: Source ve Counter-Strike: Global Offensive'de yer alan
+                bir bomba imha haritasıdır.
+                <br>
+                <br>
+                Terörle Mücadele: Teröristlerin iki trende nükleer yükleri bombalamasını önleyin. Ekip üyeleri, yükleri
+                tehdit eden bombaları etkisiz hale getirmelidir.Teröristler: C4'ü taşıyan Terörist, yüklerden birini
+                imha etmelidir.Diğer Notlar: Görevde trenlerin üzerinde 2 adet faydalı yük bulunmaktadır.
+                <br>
+                <br>
+                Tren, 10 Aralık 2014'te haritanın görsel stilini büyük ölçüde değiştirerek ve bazı oyun taktiklerini
+                değiştirerek daha da güncellendi. Bir tüneli kaldırırken, T-Spawn konektörüne kapak eklerken ve
+                Ladder'ın yanındaki kapağı kaldırırken Bomba bölgesi B'yi kapalı tünelden (ve adını Bomba bölgesi A
+                olarak yeniden değiştirerek) alanın ortasına taşıyan bazı önemli değişiklikler. Ayrıca, bomba alanındaki
+                tek keskin nişancılık konumu, T Spawn bağlantısının karşısındadır. Son olarak, kamp yapmayı engellemek
+                için parlaklık artırıldı ve tren vagonları artık oyuncuların altlarında hareket etmesine izin vermiyor.
+            </p>
+        </div>
+        <div class="tanitim" id="overpass">
+            <p>
+                Overpass (de_overpass), Cobblestone haritasıyla birlikte Winter Offensive güncellemesinde yayınlanan
+                Counter-Strike: Global Offensive için bir Bomba İmha haritasıdır.
+                <br>
+                <br>
+                Haritanın ayarı, Almanya'nın Berlin kentinde bir kanal üst geçidi ve onun üzerine inşa edilmiş parktır.
+                GSG-9, bir kanal üst geçidinde durdurulan bir askeri sevkiyatı korumalıdır, Phoenix Connexion ise
+                sevkiyata kafa kafaya saldırabilir veya aşağıdaki sütunu bombalayarak üst geçidin kendisini yok etmeye
+                çalışabilir.
+                <br>
+                <br>
+                Son olarak 10 Nisan 2020'de güncelleme alan Overpass hem görsel anlamda, hem de debugging anlamında
+                yenilenmiştir ve son haline ulaşmıştır.
+            </p>
+        </div>
+        <div class="tanitim" id="mirage">
+            <p>
+                Eskiden Strike olarak bilinen Mirage (de_mirage), Counter-Strike: Global Offensive için bir Bomba İmha
+                haritasıdır. Harita oyuna 6 Haziran 2013 tarihinde eklendi.
+                <br>
+                <br>
+                Mirage, Michael "BubkeZ" Hull tarafından oluşturulan Counter-Strike topluluk haritası de_cpl_strike'ın
+                Global Offensive versiyonudur. Hull ilk olarak Cyberathlete Professional League (CPL) için
+                de_cpl_strike'ı yarattı. Hull daha sonra haritanın CPL olmayan bir sürümünü oluşturdu ve onu Mirage
+                (de_mirage) olarak adlandırdı.[1] Counter-Strike topluluğunda yıllarca popüler bir topluluk haritasıydı
+                ve hatta Counter-Strike: Source için haritanın bir versiyonu yapıldı.
+                <br>
+                <br>
+                Global Offensive yayınlandıktan sonra Valve, haritayı yeniden düzenlemeye ve haritayı resmi bir bomba
+                imha haritası olarak dahil etmeye karar verdi. Tüm resmi haritalarda olduğu gibi, Valve görselleri
+                güncelledi ve daha rekabetçi bir oyun için oynanışı değiştirdi. Örneğin, Mirage'ın orijinal sürümleri
+                İtalya'ya benzer dokulara sahipti, ancak daha sonra Fas stilini yansıtacak şekilde güncellendi.
+                <br>
+                <br>
+                9 Aralık 2020'de aldığı güncelleme ile Mirage şu anki görünümüne kavuşmuştur. Son güncellemesinde ise
+                aynı Overpass'e yapıldığı gibi hem görsel anlamda hem de debugging anlamında güncelleme yapılmıştır.
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        const tanitim = document.getElementsByClassName("tanitim");
+        for (let i = 0; i < tanitim.length; i++) {
+            const element = tanitim[i];
+            element.style.display = "none";
+        }
+        function activeButton(name) {
+            for (let i = 0; i < tanitim.length; i++) {
+                const element = tanitim[i];
+                element.style.display = "none";
+                if (element.id == name) {
+                    (element.style.display === "none") ? element.style.display = "block" : element.style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

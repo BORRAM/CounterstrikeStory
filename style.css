@@ -68,6 +68,10 @@ scroll-snap-type: y mandatory;
 overflow-y: scroll;
 height: 100vh;
 }
+
+.buyukluk {
+  font-size: 40px;
+}
 .center {
 
   display: flex;
